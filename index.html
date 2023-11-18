@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #201127;
+            color :white;
+        }
+        
+        .Calender {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 64px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas" width="640" height="640" style="background-color:#201127"></canvas>
+        <div class="Calender">
+            <h1 class="time">00:00</h1>
+            <h2 class="day">Thu Nov 16</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
